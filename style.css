@@ -1,0 +1,93 @@
+.navbar {
+    list-style-type: none;
+    margin: 5px;
+    padding: 100px;
+    overflow: hidden;
+    background-color: blue;
+    }
+  
+  a{
+    float: left;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    }
+    .Sign-in-info{
+        float: right;
+    }
+  h1{
+      margin-top: 100px;
+      margin-left: 100px;
+  }
+  .Live-Streaming{
+      border-radius: 5px;
+      background-color: #E02C6D;
+      margin-left: 100px;
+  }
+  .Top-banner{
+    position: absolute;
+    width: 450px;
+    height: 240px;
+    left: 650px;
+    top: 153px;
+  }
+  .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10px;
+    margin-right: 1px;
+      
+  }
+  .name{
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+  }
+  .player{
+    width: 70%;
+    box-shadow: 5px 5px 20px gray;
+    padding: 50px;
+  }
+  .match{
+    display: flex;
+    float: right;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: -100px;
+    right: +200px;    
+  }
+  h1{
+    text-align: left;
+  }
+  .logo{
+    margin-top: 250px;
+    margin-left: 100px;
+    width: 400px;
+    height: 150px;
+  }
+  .picture{
+    margin-left: 270px;
+    width: 400px;
+    height: 150px;
+    
+  }
+  h6{
+    text-align: center;
+  }
+
+  /*mobile devices*/
+  @media only screen and (max-width: 688px) {
+
+
+  }
+  .navbar{
+    grid-template-columns: repeat(1, 1fr);
+  }
+    
+
+ 
+
+
+
+ 
